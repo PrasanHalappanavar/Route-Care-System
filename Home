@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Bus Coordination Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>College Bus Coordination Management System</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#routes">Routes</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h2>Welcome to the College Bus Coordination Management System</h2>
+        <p>Efficiently manage and track the routes and schedules of all college buses.</p>
+    </section>
+    
+    <section id="routes">
+        <h2>Bus Routes</h2>
+        <p>View and manage all available bus routes for the college.</p>
+    </section>
+    
+    <section id="schedule">
+        <h2>Bus Schedule</h2>
+        <p>Check the daily schedule and timing for all buses.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with the transportation office for any queries.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 College Bus Coordination Management System</p>
+    </footer>
+</body>
+</html>

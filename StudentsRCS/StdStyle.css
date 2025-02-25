@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #DCE7D8;
+    color: dimgray;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: #ecf0f1;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #34495e;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+
+/*dashboard*/
+
+.dashboard-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: auto;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.card p {
+    font-size: 24px;
+    color: #3498db;
+    margin-top: 10px;
+}
+
+
+/*bus route*/
+.bus-routes {
+    display: flex;
+  justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ecf0f1;
+}
+
+thead {
+    background-color: #2c3e50;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/*drivers */
+
+.drivers-list {
+    margin-top: 20px;
+}
+
+
+/*reports*/
+
+.content-section .reports-list input[type=text]{
+    height: 25px;
+    width: 150px;
+    font-size: 16px;
+    color: dimgray;
+    background-color: #ecf0f1;
+    border: 0.6px solid gray;
+    border-radius: 5px;
+}
+
+.content-section .reports-list textarea{
+    background-color: #ecf0f1;
+    color: dimgray;
+    border: 0.6px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type=submit]{
+    background-color: #2c3e50;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+}
+
+input[type=submit]:hover{
+    filter: brightness(160%);
+}

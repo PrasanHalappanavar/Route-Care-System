@@ -1,0 +1,11 @@
+//Start Notification javascript code
+function ShowNotification()
+{
+   document.querySelector('.notification-container').classList.add('CallNotification');
+}
+
+function RemoveNotification()
+{
+   document.querySelector('.notification-container').classList.remove('CallNotification');
+}
+//end notification js code
